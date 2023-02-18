@@ -1,5 +1,3 @@
-#Λούτας Νικόλαος
-#ΑΕΜ: 2448
 #Using psycopg2 in order to communicate with the database
 #Using tkinter to build background_image
 #Using pandas to store the results of the queries appropriately
@@ -256,7 +254,7 @@ def getArtworkInfo():
     label = Label(frame,text = artworks,justify = 'left',relief = 'solid')
     label.pack()
 
-    entryBox.pack()                                                                                                              #3:display the empty info label
+    entryBox.pack()                                                           #3:display the empty info label
 
     b = Button(frame,
                text = "get",
